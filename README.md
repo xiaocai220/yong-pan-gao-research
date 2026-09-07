@@ -4,7 +4,7 @@ Three selected first-author papers, English editorial summaries and Chinese over
 
 Build: `node build.mjs`. Validate: `node validate.mjs`. Static public output: `dist/`.
 
-Edit `papers.json` for content, `styles.css` for appearance, and `site.json` for the canonical origin. No external runtime dependencies, client-side tracking, forms or accounts are used by the website itself.
+Edit `papers.json` for content, `styles.css` for appearance, and `site.json` for the canonical origin. `indexnow.json` supplies the public verification key used for active URL submission after deployment. No external runtime dependencies, client-side tracking, forms or accounts are used by the website itself.
 
 Publication metadata and descriptions were checked against publisher records and author preprints. Editorial summaries are labeled and link to original abstracts. The site does not host publisher PDFs or claim independent reproduction of results. Author order and published titles are preserved.
 

@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 const papers=JSON.parse(fs.readFileSync('papers.json','utf8'));
 const site=JSON.parse(fs.readFileSync('site.json','utf8'));
+const indexNow=JSON.parse(fs.readFileSync('indexnow.json','utf8'));
 const esc=s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
 const write=(p,s)=>{const target=path.join('dist',p);fs.mkdirSync(path.dirname(target),{recursive:true});fs.writeFileSync(target,s);};
 const url=p=>site.origin+p;
@@ -22,6 +23,7 @@ for(const p of papers){
 write('publications.bib',papers.map(bib).join('\n'));
 write('robots.txt',`User-agent: *\nAllow: /\n\nSitemap: ${url('/sitemap.xml')}\n`);
 write('sitemap.xml',`<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${['/',...papers.map(p=>'/papers/'+p.slug+'/')].map(route=>`<url><loc>${url(route)}</loc></url>`).join('')}</urlset>`);
+write(`${indexNow.key}.txt`,`${indexNow.key}\n`);
 write('404.html',shell('Page not found | Yong-Pan Gao','Return to selected publications.','/404.html','<main id="main" class="detail"><h1>Page not found</h1><p><a href="/">Return to selected publications →</a></p></main>'));
 fs.copyFileSync('styles.css','dist/styles.css');
-console.log('Built homepage, 3 paper pages, citations, sitemap, robots and 404.');
+console.log('Built homepage, 3 paper pages, citations, sitemap, IndexNow key, robots and 404.');
