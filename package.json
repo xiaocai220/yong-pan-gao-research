@@ -1,1 +1,1 @@
-{"name":"yong-pan-gao-research","version":"1.0.0","private":true,"type":"module","scripts":{"build":"node build.mjs"}}
+{"name":"yong-pan-gao-research","version":"1.0.0","private":true,"type":"module","scripts":{"build":"node build.mjs","build:github":"node build-github.mjs"}}
