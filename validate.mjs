@@ -4,7 +4,7 @@ import assert from 'node:assert/strict';
 const papers=JSON.parse(fs.readFileSync('papers.json','utf8'));
 const site=JSON.parse(fs.readFileSync('site.json','utf8'));
 const indexNow=JSON.parse(fs.readFileSync('indexnow.json','utf8'));
-assert.equal(papers.length,3);
+assert.equal(papers.length,8);
 for(const p of papers){
  assert.equal(p.authors[0],'Yong-Pan Gao');
  const route=`/papers/${p.slug}/`;
@@ -27,8 +27,8 @@ for(const file of ['dist/index.html',...papers.map(p=>`dist/papers/${p.slug}/ind
  }
 }
 const map=fs.readFileSync('dist/sitemap.xml','utf8');
-assert.equal((map.match(/<loc>/g)||[]).length,4);
+assert.equal((map.match(/<loc>/g)||[]).length,papers.length+1);
 assert(fs.readFileSync('dist/robots.txt','utf8').includes(`Sitemap: ${site.origin}/sitemap.xml`));
 assert.match(indexNow.key,/^[A-Za-z0-9-]{8,128}$/);
 assert.equal(fs.readFileSync(`dist/${indexNow.key}.txt`,'utf8').trim(),indexNow.key);
-console.log('PASS: author order, 3 citations, canonical URLs, JSON-LD, internal links, sitemap, crawler rules and IndexNow verification.');
+console.log(`PASS: author order, ${papers.length} citations, canonical URLs, JSON-LD, internal links, sitemap, crawler rules and IndexNow verification.`);

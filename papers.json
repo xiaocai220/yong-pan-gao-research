@@ -1,1 +1,99 @@
-[{"slug":"nonreciprocal-photon-blockade","key":"Gao2021NonreciprocalBlockade","title":"Hybrid coupling optomechanical assisted nonreciprocal photon blockade","authors":["Yong-Pan Gao","Chuan Wang"],"journal":"Optics Express","year":"2021","volume":"29","issue":"16","pages":"25161–25172","doi":"10.1364/OE.431211","preprint":"https://arxiv.org/abs/2011.14480","source":"https://pubmed.ncbi.nlm.nih.gov/34614853/","topic":"Nonreciprocal quantum optics","heading":"When dissipation shapes photon blockade","question":"How can dissipative coupling affect nonreciprocal photon blockade?","zhHeading":"耗散耦合如何参与实现非互易光子阻塞？","summary":"This theoretical study examines hybrid dispersive and dissipative optomechanical coupling. It investigates an environment-induced cross-Kerr interaction and direction-dependent photon excitation and blockade under a directional auxiliary field.","zh":"这项理论研究考察同时具有色散与耗散耦合的光力学系统，讨论环境诱导的交叉 Kerr 相互作用，以及方向性辅助场下顺、逆时针模式的光子激发与阻塞差异。","contexts":["Hybrid dispersive–dissipative optomechanical models","Direction-dependent photon statistics","Environment-induced quantum nonlinearities"],"boundary":"A theoretical model, with conclusions tied to its assumptions and parameter regime. This is not a report of an experimentally demonstrated device.","version":"The arXiv preprint uses “optomechanically” in its title and is dated 2020. The citation below uses the published journal title and 2021 publication year.","keywords":["optomechanics","dissipative coupling","cross-Kerr interaction","nonreciprocal photon blockade"]},{"slug":"phonon-magnon-coupling","key":"Gao2017CavityMediated","title":"Cavity-mediated coupling of phonons and magnons","authors":["Yong-Pan Gao","Cong Cao","Tie-Jun Wang","Yong Zhang","Chuan Wang"],"journal":"Physical Review A","year":"2017","volume":"96","issue":"2","pages":"023826","doi":"10.1103/PhysRevA.96.023826","preprint":"https://arxiv.org/abs/1702.04030","source":"https://journals.aps.org/pra/abstract/10.1103/PhysRevA.96.023826","topic":"Hybrid quantum systems","heading":"Connecting phonons and magnons through a cavity","question":"How can an electromagnetic cavity mediate phonon–magnon interactions?","zhHeading":"如何通过腔场连接声子与磁振子？","summary":"Gao and colleagues propose a cavity-mediated interaction between phonons and magnons using radiation-pressure and magneto-optical effects. The theoretical study considers field-induced self-energies, thermal noise and chiral dynamics associated with encircling exceptional points.","zh":"这项工作提出腔介导声子—磁振子相互作用的混合系统，结合辐射压力与磁光效应研究电磁场调控，并讨论自能、热噪声以及异常点环绕中的手性动态特征。","contexts":["Cavity-mediated effective coupling models","Noise and self-energy in hybrid systems","Exceptional-point encircling and chiral dynamics"],"boundary":"The proposed interaction and dynamical effects are theoretical. Consult the original model before transferring its assumptions to another physical system.","version":"The preprint is titled “Cavity mediated effective interaction between phonon and magnon”. The citation below follows the final journal publication.","keywords":["phonon-magnon coupling","cavity optomagnonics","thermal noise","exceptional points"]},{"slug":"optomagnonic-chaos","key":"Gao2020PhotonicChaos","title":"Magnons scattering induced photonic chaos in the optomagnonic resonators","authors":["Yong-Pan Gao","Cong Cao","Yu-Wen Duan","Xiao-Fei Liu","Ting-Tian Pang","Tie-Jun Wang","Chuan Wang"],"journal":"Nanophotonics","year":"2020","volume":"9","issue":"7","pages":"1953–1961","doi":"10.1515/nanoph-2019-0441","preprint":null,"source":"https://www.degruyterbrill.com/document/doi/10.1515/nanoph-2019-0441/html","topic":"Nonlinear optical dynamics","heading":"Coupling, dissipation and photonic chaos","question":"What roles do coupling and dissipation play in optomagnonic chaotic dynamics?","zhHeading":"光磁腔中的耦合和耗散如何改变混沌动力学？","summary":"This theoretical work studies two-mode photonic dynamics in an optomagnonic cavity. It examines energy transfer between modes and how coupling and dissipation influence chaotic behavior.","zh":"这项理论工作研究光磁腔中双模光子态的动力学，分析模式间能量转移以及耦合、耗散对混沌行为的影响。相关结论来自论文模型及数值分析。","contexts":["Magnon scattering and optical nonlinear dynamics","Competition between coupling and dissipation","Energy transfer in two-mode optomagnonic systems"],"boundary":"A model-based theoretical and numerical study. Quantitative comparisons require the original simulation conditions.","version":"First published online on 25 December 2019. The publisher's volume-and-issue citation uses 2020, which is retained here.","keywords":["optomagnonics","photonic chaos","magnon scattering","dissipation"]}]
+[
+  {
+    "slug": "nonreciprocal-photon-blockade", "key": "Gao2021NonreciprocalBlockade",
+    "title": "Hybrid coupling optomechanical assisted nonreciprocal photon blockade",
+    "authors": ["Yong-Pan Gao", "Chuan Wang"], "journal": "Optics Express", "year": "2021", "volume": "29", "issue": "16", "pages": "25161–25172", "doi": "10.1364/OE.431211",
+    "preprint": "https://arxiv.org/abs/2011.14480", "source": "https://pubmed.ncbi.nlm.nih.gov/34614853/", "topic": "Nonreciprocal quantum optics",
+    "heading": "When dissipation shapes photon blockade", "question": "How can dissipative coupling affect nonreciprocal photon blockade?", "zhHeading": "耗散耦合如何参与实现非互易光子阻塞？",
+    "summary": "This theoretical study examines hybrid dispersive and dissipative optomechanical coupling. It investigates an environment-induced cross-Kerr interaction and direction-dependent photon excitation and blockade under a directional auxiliary field.",
+    "zh": "这项理论研究考察同时具有色散与耗散耦合的光力学系统，讨论环境诱导的交叉 Kerr 相互作用，以及方向性辅助场下顺、逆时针模式的光子激发与阻塞差异。",
+    "contexts": ["Hybrid dispersive–dissipative optomechanical models", "Direction-dependent photon statistics", "Environment-induced quantum nonlinearities"],
+    "boundary": "A theoretical model, with conclusions tied to its assumptions and parameter regime. This is not a report of an experimentally demonstrated device.",
+    "version": "The arXiv preprint uses “optomechanically” in its title and is dated 2020. The citation below uses the published journal title and 2021 publication year.",
+    "keywords": ["optomechanics", "dissipative coupling", "cross-Kerr interaction", "nonreciprocal photon blockade"]
+  },
+  {
+    "slug": "phonon-magnon-coupling", "key": "Gao2017CavityMediated", "title": "Cavity-mediated coupling of phonons and magnons",
+    "authors": ["Yong-Pan Gao", "Cong Cao", "Tie-Jun Wang", "Yong Zhang", "Chuan Wang"], "journal": "Physical Review A", "year": "2017", "volume": "96", "issue": "2", "pages": "023826", "doi": "10.1103/PhysRevA.96.023826",
+    "preprint": "https://arxiv.org/abs/1702.04030", "source": "https://journals.aps.org/pra/abstract/10.1103/PhysRevA.96.023826", "topic": "Hybrid quantum systems",
+    "heading": "Connecting phonons and magnons through a cavity", "question": "How can an electromagnetic cavity mediate phonon–magnon interactions?", "zhHeading": "如何通过腔场连接声子与磁振子？",
+    "summary": "Gao and colleagues propose a cavity-mediated interaction between phonons and magnons using radiation-pressure and magneto-optical effects. The theoretical study considers field-induced self-energies, thermal noise and chiral dynamics associated with encircling exceptional points.",
+    "zh": "这项工作提出腔介导声子—磁振子相互作用的混合系统，结合辐射压力与磁光效应研究电磁场调控，并讨论自能、热噪声以及异常点环绕中的手性动态特征。",
+    "contexts": ["Cavity-mediated effective coupling models", "Noise and self-energy in hybrid systems", "Exceptional-point encircling and chiral dynamics"],
+    "boundary": "The proposed interaction and dynamical effects are theoretical. Consult the original model before transferring its assumptions to another physical system.",
+    "version": "The preprint is titled “Cavity mediated effective interaction between phonon and magnon”. The citation below follows the final journal publication.",
+    "keywords": ["phonon-magnon coupling", "cavity optomagnonics", "thermal noise", "exceptional points"]
+  },
+  {
+    "slug": "optomagnonic-chaos", "key": "Gao2020PhotonicChaos", "title": "Magnons scattering induced photonic chaos in the optomagnonic resonators",
+    "authors": ["Yong-Pan Gao", "Cong Cao", "Yu-Wen Duan", "Xiao-Fei Liu", "Ting-Tian Pang", "Tie-Jun Wang", "Chuan Wang"], "journal": "Nanophotonics", "year": "2020", "volume": "9", "issue": "7", "pages": "1953–1961", "doi": "10.1515/nanoph-2019-0441",
+    "preprint": null, "source": "https://www.degruyterbrill.com/document/doi/10.1515/nanoph-2019-0441/html", "topic": "Nonlinear optical dynamics",
+    "heading": "Coupling, dissipation and photonic chaos", "question": "What roles do coupling and dissipation play in optomagnonic chaotic dynamics?", "zhHeading": "光磁腔中的耦合和耗散如何改变混沌动力学？",
+    "summary": "This theoretical work studies two-mode photonic dynamics in an optomagnonic cavity. It examines energy transfer between modes and how coupling and dissipation influence chaotic behavior.",
+    "zh": "这项理论工作研究光磁腔中双模光子态的动力学，分析模式间能量转移以及耦合、耗散对混沌行为的影响。相关结论来自论文模型及数值分析。",
+    "contexts": ["Magnon scattering and optical nonlinear dynamics", "Competition between coupling and dissipation", "Energy transfer in two-mode optomagnonic systems"],
+    "boundary": "A model-based theoretical and numerical study. Quantitative comparisons require the original simulation conditions.",
+    "version": "First published online on 25 December 2019. The publisher's volume-and-issue citation uses 2020, which is retained here.",
+    "keywords": ["optomagnonics", "photonic chaos", "magnon scattering", "dissipation"]
+  },
+  {
+    "slug": "phase-controlled-photon-blockade", "key": "Gao2023PhaseControlledBlockade", "title": "Phase-controlled photon blockade in optomechanical systems",
+    "authors": ["Yong-Pan Gao", "Cong Cao", "Peng-Fei Lu", "Chuan Wang"], "journal": "Fundamental Research", "year": "2023", "volume": "3", "issue": "1", "pages": "30–36", "doi": "10.1016/j.fmre.2022.07.009",
+    "preprint": null, "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11197518/", "topic": "Quantum optomechanics",
+    "heading": "Using optical phase to control photon blockade", "question": "How can coupling phase tune photon blockade across a broad parameter range?", "zhHeading": "耦合相位如何调控光子阻塞？",
+    "summary": "This theoretical study analyzes photon blockade in two coupled optomechanical resonators. It connects the coupling phase, photon interference and mechanical-mode frequency to conventional and unconventional blockade behavior across different parameter regimes.",
+    "zh": "这项理论研究考察两个耦合光力学谐振器中的光子阻塞，分析耦合相位引起的干涉、机械模频率以及增益和损耗条件如何改变常规与非常规光子阻塞。",
+    "contexts": ["Phase-dependent photon interference", "Conventional and unconventional photon blockade", "Coupled gain-loss optomechanical resonators"],
+    "boundary": "A theoretical and numerical investigation. The reported blockade ranges depend on the model, correlation criterion and chosen parameters.",
+    "version": "Published in the January 2023 issue; the DOI record was registered in 2022. This citation follows the final volume and issue.",
+    "keywords": ["phase-controlled photon blockade", "optomechanics", "photon correlation", "coupled resonators"]
+  },
+  {
+    "slug": "rof-chaotic-synchronization", "key": "Gao2022RoFSynchronization", "title": "Optomagnonically induced RoF chaotic synchronization",
+    "authors": ["Yong-Pan Gao", "Xin-Chang Liu", "Cong Cao", "Li-Hong Han", "Peng-Fei Lu"], "journal": "New Journal of Physics", "year": "2022", "volume": "24", "issue": "8", "pages": "083022", "doi": "10.1088/1367-2630/ac8699",
+    "preprint": null, "source": "https://doi.org/10.1088/1367-2630/ac8699", "topic": "Microwave photonics",
+    "heading": "Synchronizing radio-over-fiber chaos with optomagnonics", "question": "How can optomagnonic cavities connect microwave-scale dynamics with optical transport?", "zhHeading": "光磁腔如何实现 RoF 混沌同步？",
+    "summary": "This work develops a multiscale optomagnonic model for radio-over-fiber signals. It studies pump-controlled transitions among harmonics, frequency combs and chaos, then examines chaotic synchronization between two optomagnonic cavities.",
+    "zh": "这项工作建立面向射频光纤信号的多尺度光磁模型，研究泵浦强度驱动的谐波、频梳与混沌转换，并分析双光磁腔之间的混沌同步。",
+    "contexts": ["Radio-over-fiber signal dynamics", "Optomagnonic frequency combs", "Chaos synchronization between cavities"],
+    "boundary": "The results arise from a theoretical model and numerical analysis. Communication-system performance requires separate experimental validation.",
+    "version": "The final New Journal of Physics citation uses article number 083022.",
+    "keywords": ["optomagnonics", "radio over fiber", "chaotic synchronization", "frequency comb"]
+  },
+  {
+    "slug": "dissipation-frequency-comb-chaos", "key": "Gao2022DissipationComb", "title": "Dissipation Assisted Frequency Comb and Chaos Generation in the Optomechanics",
+    "authors": ["Yong-Pan Gao", "Xin-Chang Liu", "Kai Wang", "Yong Zhang"], "journal": "IEEE Photonics Journal", "year": "2022", "volume": "14", "issue": "1", "pages": "1–6", "doi": "10.1109/JPHOT.2021.3134959",
+    "preprint": null, "source": "https://doi.org/10.1109/JPHOT.2021.3134959", "topic": "Nonlinear optomechanics",
+    "heading": "Turning dissipation into a resource for combs and chaos", "question": "Can dissipative optomechanical coupling lower the threshold for frequency-comb and chaos generation?", "zhHeading": "耗散能否帮助产生光力学频梳与混沌？",
+    "summary": "This theoretical paper studies a hybrid dispersive-dissipative optomechanical cavity. It analyzes bistability and fixed points to explain dissipation-assisted frequency-comb and chaotic dynamics, including behavior in the poor-cavity regime.",
+    "zh": "这篇理论论文研究色散—耗散混合耦合光力学腔，通过双稳态和固定点分析讨论耗散辅助的频梳与混沌产生，并考察低品质腔条件下的动力学。",
+    "contexts": ["Hybrid dispersive-dissipative optomechanics", "Optomechanical frequency-comb generation", "Dissipation-assisted chaotic dynamics"],
+    "boundary": "A model-based theoretical study. Thresholds and comb structure depend on the assumed cavity and drive parameters.",
+    "version": "The DOI was assigned in 2021; the final IEEE Photonics Journal issue is volume 14, issue 1 (2022).",
+    "keywords": ["dissipative optomechanics", "frequency comb", "optical chaos", "bistability"]
+  },
+  {
+    "slug": "phononic-mode-resonance", "key": "Gao2017PhononicResonance", "title": "Optomechanically engineered phononic mode resonance",
+    "authors": ["Yong-Pan Gao", "Zhong-Xiao Wang", "Tie-Jun Wang", "Chuan Wang"], "journal": "Optics Express", "year": "2017", "volume": "25", "issue": "22", "pages": "26638–26650", "doi": "10.1364/OE.25.026638",
+    "preprint": null, "source": "https://pubmed.ncbi.nlm.nih.gov/29092152/", "topic": "Phononic engineering",
+    "heading": "Controlling phonon transmission with an optical field", "question": "How can an electromagnetic field engineer resonance between mechanical modes?", "zhHeading": "如何用光场调控机械模之间的声子共振？",
+    "summary": "This theoretical work treats the electromagnetic field as a phonon transmission medium in an optomechanical system. An analytical model relates optical-frequency variation and mechanical driving to phononic transmission resonances between two mechanical modes.",
+    "zh": "这项理论工作把电磁场视作光力学系统中的声子传输媒介，通过解析模型研究光场频率变化和机械模驱动如何调控两个机械模之间的声子传输共振。",
+    "contexts": ["Optical control of phonon transmission", "Coupled mechanical-mode resonance", "Analytical models for phononic devices"],
+    "boundary": "The study develops an analytical model; device conclusions should be evaluated with the original assumptions and parameter ranges.",
+    "version": "The citation uses the complete page range reported by PubMed for the final Optics Express article.",
+    "keywords": ["phononic mode resonance", "optomechanics", "phonon transmission", "mechanical modes"]
+  },
+  {
+    "slug": "effective-mass-sensing", "key": "Gao2017EffectiveMass", "title": "Effective Mass Sensing Using Optomechanically Induced Transparency in Microresonator System",
+    "authors": ["Yong-Pan Gao", "Tie-Jun Wang", "Cong Cao", "Si-Chen Mi", "Daquan Yang", "Yong Zhang", "Chuan Wang"], "journal": "IEEE Photonics Journal", "year": "2017", "volume": "9", "issue": "1", "pages": "1–11", "doi": "10.1109/JPHOT.2016.2639045",
+    "preprint": "https://arxiv.org/abs/1607.07937", "source": "https://doi.org/10.1109/JPHOT.2016.2639045", "topic": "Optomechanical sensing",
+    "heading": "Detecting particle mass through induced transparency", "question": "How can optomechanically induced transparency support microresonator mass sensing?", "zhHeading": "如何利用光力诱导透明测量微粒质量？",
+    "summary": "This theoretical sensing scheme uses optomechanically induced transparency and a Stokes-field reference to detect particle-induced changes in microresonator transmission. The model evaluates femtogram-scale mass sensing without requiring high cavity quality factor or strong coupling.",
+    "zh": "这项理论传感方案结合光力诱导透明与斯托克斯场参考，通过微粒引起的微腔透射变化估计质量；模型讨论了在不要求高品质因子或强耦合条件下的飞克量级质量感知。",
+    "contexts": ["Nanoparticle mass sensing", "Optomechanically induced transparency", "Transmission-based microresonator metrology"],
+    "boundary": "The femtogram-scale result is a theoretical evaluation under the paper's assumptions, not an independent experimental performance claim.",
+    "version": "Published in IEEE Photonics Journal volume 9, issue 1 (2017); the DOI contains its 2016 registration year.",
+    "keywords": ["mass sensing", "optomechanically induced transparency", "microresonator", "nanoparticle detection"]
+  }
+]
