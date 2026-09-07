@@ -25,6 +25,7 @@ write('publications.bib',papers.map(bib).join('\n'));
 write('robots.txt',`User-agent: *\nAllow: /\n\nSitemap: ${url('/sitemap.xml')}\n`);
 write('sitemap.xml',`<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${['/','/about/',...papers.map(p=>'/papers/'+p.slug+'/')].map(route=>`<url><loc>${url(route)}</loc></url>`).join('')}</urlset>`);
 write(`${indexNow.key}.txt`,`${indexNow.key}\n`);
+write('google673aa6e6d9c8b3d8.html','google-site-verification: google673aa6e6d9c8b3d8.html\n');
 write('404.html',shell('Page not found | Yong-Pan Gao','Return to selected publications.','/404.html','<main id="main" class="detail"><h1>Page not found</h1><p><a href="/">Return to selected publications →</a></p></main>'));
 fs.copyFileSync('styles.css','dist/styles.css');
 console.log(`Built homepage, ${papers.length} paper pages, citations, sitemap, IndexNow key, robots and 404.`);

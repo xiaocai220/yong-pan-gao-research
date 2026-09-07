@@ -34,4 +34,5 @@ assert(about.includes(site.affiliation));
 assert(fs.readFileSync('dist/robots.txt','utf8').includes(`Sitemap: ${site.origin}/sitemap.xml`));
 assert.match(indexNow.key,/^[A-Za-z0-9-]{8,128}$/);
 assert.equal(fs.readFileSync(`dist/${indexNow.key}.txt`,'utf8').trim(),indexNow.key);
+assert.equal(fs.readFileSync('dist/google673aa6e6d9c8b3d8.html','utf8').trim(),'google-site-verification: google673aa6e6d9c8b3d8.html');
 console.log(`PASS: author order, ${papers.length} citations, canonical URLs, JSON-LD, internal links, sitemap, crawler rules and IndexNow verification.`);
