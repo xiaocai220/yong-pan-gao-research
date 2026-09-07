@@ -27,7 +27,10 @@ for(const file of ['dist/index.html',...papers.map(p=>`dist/papers/${p.slug}/ind
  }
 }
 const map=fs.readFileSync('dist/sitemap.xml','utf8');
-assert.equal((map.match(/<loc>/g)||[]).length,papers.length+1);
+assert.equal((map.match(/<loc>/g)||[]).length,papers.length+2);
+const about=fs.readFileSync('dist/about/index.html','utf8');
+assert(about.includes(site.orcid));
+assert(about.includes(site.affiliation));
 assert(fs.readFileSync('dist/robots.txt','utf8').includes(`Sitemap: ${site.origin}/sitemap.xml`));
 assert.match(indexNow.key,/^[A-Za-z0-9-]{8,128}$/);
 assert.equal(fs.readFileSync(`dist/${indexNow.key}.txt`,'utf8').trim(),indexNow.key);
