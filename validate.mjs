@@ -4,7 +4,9 @@ import assert from 'node:assert/strict';
 const papers=JSON.parse(fs.readFileSync('papers.json','utf8'));
 const site=JSON.parse(fs.readFileSync('site.json','utf8'));
 const indexNow=JSON.parse(fs.readFileSync('indexnow.json','utf8'));
-assert.equal(papers.length,8);
+assert(papers.length>0);
+assert.equal(new Set(papers.map(p=>p.slug)).size,papers.length);
+assert.equal(new Set(papers.map(p=>p.doi.toLowerCase())).size,papers.length);
 for(const p of papers){
  assert.equal(p.authors[0],'Yong-Pan Gao');
  const route=`/papers/${p.slug}/`;

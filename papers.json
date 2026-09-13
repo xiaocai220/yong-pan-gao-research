@@ -95,5 +95,17 @@
     "boundary": "The femtogram-scale result is a theoretical evaluation under the paper's assumptions, not an independent experimental performance claim.",
     "version": "Published in IEEE Photonics Journal volume 9, issue 1 (2017); the DOI contains its 2016 registration year.",
     "keywords": ["mass sensing", "optomechanically induced transparency", "microresonator", "nanoparticle detection"]
+  },
+  {
+    "slug": "optomagnonic-photon-blockade", "key": "Gao2019OptomagnonicBlockade", "title": "Photon excitation and photon-blockade effects in optomagnonic microcavities",
+    "authors": ["Yong-Pan Gao", "Xiao-Fei Liu", "Tie-Jun Wang", "Cong Cao", "Chuan Wang"], "journal": "Physical Review A", "year": "2019", "volume": "100", "issue": "4", "pages": "043831", "doi": "10.1103/PhysRevA.100.043831",
+    "preprint": null, "source": "https://journals.aps.org/pra/abstract/10.1103/PhysRevA.100.043831", "topic": "Quantum optomagnonics",
+    "heading": "Controlling photons through magnon–photon supermodes", "question": "How can Kerr-coupled magnons and optical modes produce photon blockade in an optomagnonic microcavity?", "zhHeading": "Kerr 耦合如何在光磁微腔中产生光子阻塞？",
+    "summary": "This theoretical study analyzes photon excitation and blockade in a hybrid optomagnonic microcavity. Under the Kerr effect, magnons and transverse-electric and transverse-magnetic photons form optical supermodes; an analytic photon-correlation treatment predicts asymmetric statistics for the two supermodes.",
+    "zh": "这项理论研究分析混合光磁微腔中的光子激发与阻塞。在 Kerr 效应下，磁振子与横电、横磁光子形成光学超模；对光子关联函数的解析研究显示两个超模具有不对称的光子统计。",
+    "contexts": ["Photon blockade in hybrid optomagnonic cavities", "Kerr-mediated magnon–photon supermodes", "Asymmetric photon correlations between optical supermodes"],
+    "boundary": "A theoretical and analytical study of an idealized hybrid microcavity. The predicted blockade and correlation asymmetry depend on the Kerr interaction and parameter regime used in the model.",
+    "version": "Published by the American Physical Society on 22 October 2019 as Physical Review A 100, 043831.",
+    "keywords": ["optomagnonics", "photon blockade", "Kerr effect", "magnon-photon coupling", "photon correlations"]
   }
 ]

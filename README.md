@@ -1,6 +1,6 @@
 # Yong-Pan Gao research website
 
-Eight selected first-author papers, English editorial summaries and Chinese overviews, original publication links and BibTeX downloads.
+Selected first-author papers, English editorial summaries and Chinese overviews, original publication links and BibTeX downloads.
 
 Build: `node build.mjs`. Validate: `node validate.mjs`. Static public output: `dist/`.
 
