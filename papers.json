@@ -107,5 +107,17 @@
     "boundary": "A theoretical and analytical study of an idealized hybrid microcavity. The predicted blockade and correlation asymmetry depend on the Kerr interaction and parameter regime used in the model.",
     "version": "Published by the American Physical Society on 22 October 2019 as Physical Review A 100, 043831.",
     "keywords": ["optomagnonics", "photon blockade", "Kerr effect", "magnon-photon coupling", "photon correlations"]
+  },
+  {
+    "slug": "hybrid-dissipative-dispersive-transparency", "key": "Gao2021HybridTransparency", "title": "Hybrid Dissipative and Dispersive Optomechanically Induced Transparency",
+    "authors": ["Yong-Pan Gao", "Daquan Yang", "Peng-Fei Lu", "Chuan Wang"], "journal": "IEEE Transactions on Quantum Engineering", "year": "2021", "volume": "2", "issue": null, "pages": "1–8", "doi": "10.1109/TQE.2021.3056667",
+    "preprint": null, "source": "https://ieeexplore.ieee.org/document/9346007", "topic": "Optomechanical transparency",
+    "heading": "Combining dissipative and dispersive control of transparency", "question": "How can hybrid optomechanical coupling turn a transparency window into tunable gain and fast–slow light control?", "zhHeading": "耗散与色散耦合如何共同调控光力诱导透明？",
+    "summary": "This theoretical study unifies dissipative and dispersive coupling in a generalized optomechanical model. It shows how their interplay tunes interference and gain in optomechanically induced transparency and can enhance control of fast and slow light under red-sideband pumping.",
+    "zh": "这项理论研究在广义光力学模型中统一处理耗散与色散耦合，分析二者如何共同调节光力诱导透明中的干涉与增益，并在红边带泵浦下增强对快光和慢光的控制。",
+    "contexts": ["Hybrid dissipative–dispersive optomechanical coupling", "Optomechanically induced transparency and amplification", "Fast- and slow-light control"],
+    "boundary": "A theoretical analysis based on a generalized coupling model. The predicted transparency, gain and group-delay enhancement depend on the assumed device parameters and pumping conditions.",
+    "version": "Published as an open-access article in IEEE Transactions on Quantum Engineering, volume 2 (2021), pages 1–8.",
+    "keywords": ["optomechanically induced transparency", "dissipative coupling", "dispersive coupling", "optical gain", "slow light"]
   }
 ]
