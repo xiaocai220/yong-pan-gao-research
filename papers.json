@@ -119,5 +119,17 @@
     "boundary": "A theoretical analysis based on a generalized coupling model. The predicted transparency, gain and group-delay enhancement depend on the assumed device parameters and pumping conditions.",
     "version": "Published as an open-access article in IEEE Transactions on Quantum Engineering, volume 2 (2021), pages 1–8.",
     "keywords": ["optomechanically induced transparency", "dissipative coupling", "dispersive coupling", "optical gain", "slow light"]
+  },
+  {
+    "slug": "plasmonic-gap-mode-evolution", "key": "Gao2017PlasmonicGap", "title": "Gap induced mode evolution under the asymmetric structure in a plasmonic resonator system",
+    "authors": ["Yong-Pan Gao", "Tie-Jun Wang", "Cong Cao", "Chuan Wang"], "journal": "Photonics Research", "year": "2017", "volume": "5", "issue": "2", "pages": "113–118", "doi": "10.1364/PRJ.5.000113",
+    "preprint": null, "source": "https://opg.optica.org/prj/abstract.cfm?uri=prj-5-2-113", "topic": "Plasmonic microresonators",
+    "heading": "Tuning plasmonic whispering-gallery modes with an asymmetric gap", "question": "How can a gap or nanoscatterer reshape standing waves and output coupling in a plasmonic whispering-gallery resonator?", "zhHeading": "间隙如何调控等离激元回音壁模式？",
+    "summary": "This theoretical study examines mode evolution in an asymmetric plasmonic whispering-gallery resonator. A gap or nanoscatterer breaks cavity symmetry, allowing the standing-wave pattern and output coupling between two modes to be tuned. The authors also propose using this response to sense defect positions.",
+    "zh": "这项理论研究考察非对称等离激元回音壁谐振器中的模式演化。腔内间隙或纳米散射体打破系统对称性，使驻波分布及两个腔模的输出耦合率可调；作者还提出利用这种响应感知缺陷位置。",
+    "contexts": ["Symmetry breaking in plasmonic ring resonators", "Whispering-gallery standing-wave control", "Defect-position sensing with mode evolution"],
+    "boundary": "A theoretical study of an asymmetric plasmonic resonator. Defect-position sensing is a proposed application, not a reported experimental demonstration or a quantified sensitivity claim.",
+    "version": "Published in Photonics Research volume 5, issue 2 (April 2017), pages 113–118. Crossref records the online publication date as 28 February 2017.",
+    "keywords": ["plasmonic resonator", "whispering-gallery mode", "symmetry breaking", "mode evolution", "defect sensing"]
   }
 ]
