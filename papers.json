@@ -132,4 +132,20 @@
     "version": "Published in Photonics Research volume 5, issue 2 (April 2017), pages 113–118. Crossref records the online publication date as 28 February 2017.",
     "keywords": ["plasmonic resonator", "whispering-gallery mode", "symmetry breaking", "mode evolution", "defect sensing"]
   }
+  ,{
+    "slug": "pt-anyonic-exceptional-points", "key": "Gao2019PTAnyonic",
+    "title": "Parity-Time-Anyonic Coupled Resonators System With Tunable Exceptional Points",
+    "authors": ["Yong-Pan Gao", "Yang Sun", "Xiao-Fei Liu", "Tie-Jun Wang", "Chuan Wang"],
+    "journal": "IEEE Access", "year": "2019", "volume": "7", "issue": null, "pages": "107874–107878", "doi": "10.1109/ACCESS.2019.2933198",
+    "preprint": null, "source": "https://ieeexplore.ieee.org/document/8787578", "topic": "Non-Hermitian photonics",
+    "heading": "Tuning exceptional points through the phase of coupled resonators",
+    "question": "How does phase tune exceptional points and symmetry in a parity-time-anyonic coupled-resonator model?",
+    "zhHeading": "相位如何调控 PT-anyonic 耦合谐振器的异常点？",
+    "summary": "This theoretical study examines a parity-time-anyonic Hamiltonian for coupled resonators with phase-dependent exceptional points. Eigenvalue analysis and simulations explore how phase changes the symmetry and spectral behavior of the system. The work also identifies conditions for parity-time symmetry in a quasi-parity-time-symmetric model.",
+    "zh": "这项理论研究考察耦合谐振器的宇称—时间任意子型（PT-anyonic）哈密顿量及其随相位可调的异常点。作者通过本征值分析与模拟研究相位对系统对称性和谱特征的影响，并讨论准 PT 对称模型中实现 PT 对称性的条件。",
+    "contexts": ["Phase-dependent exceptional points in coupled resonators", "Non-Hermitian eigenvalue analysis", "Parity-time-anyonic and quasi-parity-time symmetry"],
+    "boundary": "A theoretical and simulation-based study of coupled-resonator Hamiltonians. The results depend on the model parameters and do not constitute an experimental demonstration of a device or a sensitivity improvement.",
+    "version": "Published in IEEE Access, volume 7 (2019), pages 107874–107878. The title, author order, year, page range and DOI are verified against the Crossref publication record.",
+    "keywords": ["parity-time symmetry", "PT-anyonic symmetry", "exceptional points", "coupled resonators", "non-Hermitian photonics"]
+  }
 ]
