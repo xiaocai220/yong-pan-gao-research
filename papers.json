@@ -147,5 +147,44 @@
     "boundary": "A theoretical and simulation-based study of coupled-resonator Hamiltonians. The results depend on the model parameters and do not constitute an experimental demonstration of a device or a sensitivity improvement.",
     "version": "Published in IEEE Access, volume 7 (2019), pages 107874–107878. The title, author order, year, page range and DOI are verified against the Crossref publication record.",
     "keywords": ["parity-time symmetry", "PT-anyonic symmetry", "exceptional points", "coupled resonators", "non-Hermitian photonics"]
-  }
+  },
+{
+  "slug": "coherent-chiral-computation",
+  "key": "Gao2022ChiralComputation",
+  "title": "Coherent chiral computation without optical parametric oscillation",
+  "authors": [
+    "Yong-Pan Gao",
+    "Peng-Fei Lu",
+    "Chuan Wang"
+  ],
+  "journal": "arXiv preprint",
+  "year": "2022",
+  "volume": null,
+  "issue": null,
+  "pages": "",
+  "doi": "10.48550/arXiv.2206.13060",
+  "publicationType": "preprint",
+  "arxivId": "2206.13060",
+  "preprint": "https://arxiv.org/abs/2206.13060",
+  "source": "https://arxiv.org/abs/2206.13060v1",
+  "topic": "Optical Ising models",
+  "heading": "Encoding Ising spins in microresonator mode chirality",
+  "question": "How can whispering-gallery microresonators represent Ising spins without optical parametric oscillation?",
+  "zhHeading": "如何用微腔模式手性表示伊辛自旋？",
+  "summary": "This preprint proposes an optical computation model in which microresonator mode chirality represents Ising spins. Simulations of an optically connected whispering-gallery resonator array examine relaxation, steady-state distributions and connections between modes. The proposed approach explores solution searches for the corresponding Ising problem without optical parametric oscillation.",
+  "zh": "这篇预印本提出以微腔模式手性表示伊辛自旋的光学计算模型，通过光连接的回音壁微腔阵列模拟伊辛系统的演化。数值模拟考察弛豫时间、稳态分布和模式连接，并探索无需光学参量振荡的伊辛问题求解方案。",
+  "contexts": [
+    "Mode chirality as an optical spin variable",
+    "Coupled microresonator arrays for Ising dynamics",
+    "Simulation-based optical optimization models"
+  ],
+  "boundary": "A theoretical and numerical preprint, not an experimental computing demonstration. Its reported timing behavior concerns the simulated cases and does not establish a general constant-time algorithm for arbitrary NP-hard problems. No peer-reviewed journal version is asserted here.",
+  "version": "arXiv:2206.13060v1, submitted 27 June 2022. The DOI identifies the arXiv preprint; author order and abstract were checked against the arXiv record.",
+  "keywords": [
+    "optical Ising model",
+    "coherent computation",
+    "mode chirality",
+    "whispering-gallery microresonators"
+  ]
+}
 ]
